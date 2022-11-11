@@ -3,10 +3,10 @@ import './App.css';
 import Sagar from './components/Sagar';
 
 function App() {
-  const text=["bat","ball","wicket"];
+  const arr=["bat","ball","wicket"];
   return (
     <div className="App">
-    <Sagar name={text}/>
+    <Sagar name={arr}/>
     </div>
   );
 }
